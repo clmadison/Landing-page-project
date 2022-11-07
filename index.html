@@ -1,47 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/38ea28d153.js" crossorigin="anonymous"></script>
-    <meta name="description" content="Video Background Project">
-    <meta name="author" content="Clay Madison">
-    <link rel="stylesheet" href="style.css">
-    <title>Video Background</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Video Background Project">
+  <meta name="author" content="Matt Riley">
+
+  <script src="https://kit.fontawesome.com/cb216a6a38.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="style.css">
+  <title>Video Background</title>
 </head>
 <body>
-    <section id="Main">
-        <div id="Video-container">
-            <!-- Auto PLay starts the video loop causes the video to continuously play muted removes any audio from the video -->
-            <video src="html.mp4" autoplay loop muted ></video>
-        </div>
-        <!-- Div to cover/darken the video -->
-        <div id="cover"></div>
-        <div id="content">
-            <h1>Clay Madison</h1>
-            <h2>Web Developer</h2>
-            <!-- Setting the href value ti an ID will take the user to the element with that ID when the link is clicked -->
-            <a href="#about" id="click"></a>
-        </div>
-    </section>
-    <section id="about">
-        <h1>About</h1>
-        <p>Currently Enrolled in a Web Development Program</p>
-        <h2>Follow me on Social Media</h2>
-        <div>
-            <!-- ADDING THE target_blank attribute will cause the link to open in a new tab -->
-            <a href="">
-                <i class="fa-brands fa-twitter"></i>
-            </a>
-            <a href=""><i class="fa-brands fa-instagram"></i></a>
-            <a href=""><i class="fa-brands fa-linkedin"></i></a>
-            <a href=""><i class="fa-brands fa-discord"></i></a>
-            <a href=""><i class="fa-brands fa-youtube"></i></a>
-            <a href=""><i class="fa-brands fa-paypal"></i></a>
-            <a href=""><i class="fa-brands fa-tiktok"></i></a>
-            <a href=""><i class="fa-brands fa-github"></i></a>
-        </div>
-    </section>
+  <section id="main">
+    <div id="image-container">
+      <img src="tokyoluv-CsMNgdHXzFs-unsplash.jpg" alt="">
+    </div>
+    <div id="cover"></div>
+    <div id="content">
+      <h1>Clay Madison</h1>
+      <h2>Web Developer</h2>
+      <a href="#home" id="click">Home</a>
+      <a href="#about" id="click">About</a>
+    </div>
+  </section>
+
+  <section id="about">
+    <h1>About</h1>
+    <p>Currently Enrolled in a Web Development Program</p>
+    <h2>Follow me on social media</h2>
+    <div>
+      <a href=>
+        <i class="fa-brands fa-twitter"></i>
+      </a>
+      <a href=>
+        <i class="fa-brands fa-facebook"></i>
+      </a>
+      <a href=>
+        <i class="fa-brands fa-github"></i>
+      </a>
+      <a href=>
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+    </div>
+  </section>
 </body>
 </html>
